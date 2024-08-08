@@ -1,0 +1,25 @@
+.itemCon {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.itemCon p {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+.itemCon button {
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
